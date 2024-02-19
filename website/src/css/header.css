@@ -1,0 +1,221 @@
+body * {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+}
+/* nav{
+    margin-bottom: 200px;
+    background-color: lightgrey;
+    height: 100px;
+    width: 100%;
+} */
+label.logo{
+    color: blue;
+    font-size: 25px;
+    line-height: 80px;
+    padding: 0 0px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+nav ul{
+    float: right;
+    margin-top: -95px;
+  
+ 
+}
+nav ul li{
+    position: relative;
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+   
+}
+.nav-link {
+    position: relative;
+    color:black;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 4px 4px;
+    border-radius: 4px;
+}
+
+button:active,button:hover{
+    background-color:lightgrey;
+    transition: .5s;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: blue;
+    float: right;
+    line-height: 80px;
+    margin-right: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+
+.cartnav{
+    height: 40px;
+    width: 90px;
+   color:white;
+   padding: 10px;
+   border-radius: 5px;
+   background-color:orangered;
+   font-size:medium;
+  
+  }
+  .cartnav:hover{
+    color: white;
+    background-color: #0082e6;
+  }
+
+  .loginnav{
+    height: 40px;
+    width:90px;
+    color: white;
+    background-color: green;
+    padding: 10px;
+   border-radius: 5px;
+   font-size:medium;
+  
+  }
+  .loginnav:hover{
+    color: white;
+    background-color: blueviolet;
+  }
+
+  .ordernav{
+    height: 40px;
+    width:90px;
+    color: white;
+    background-color: green;
+    padding: 10px;
+   border-radius: 5px;
+   font-size:medium;
+  
+  }
+  .ordernav:hover{
+    color: white;
+    background-color: blueviolet;
+  }
+  
+  .custom-dropdown-item {
+    height: 60px;
+      margin-top: -39px;
+        padding: 10px; /* Set your custom padding here */
+      }
+      
+      .customdetails-dropdown-item {
+        height: 50px;
+            margin-top: -0px;
+            padding: 10px; /* Set your custom padding here */
+          }
+@media only screen and (max-width: 952px) {
+ 
+    label.logo{
+        
+        font-size: 25px;
+        padding-left:  -30px;
+     
+    }
+    nav ul li button {
+        
+        font-size: 16px;
+        
+    }
+    .custom-dropdown-item {
+        height: 30px;
+          margin-top: -0px;
+            padding: 10px; /* Set your custom padding here */
+          }
+          
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .checkbtn{
+        display: block;
+        margin-top: 12px;
+      
+    }
+
+    .ul{
+      padding-top: 13px;
+       padding-left:3px;
+        position:absolute ;
+        width: 47%;
+        height: 50vh;
+        background-color:lightcyan;
+        top: 188px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        
+        
+       
+    }
+ 
+    nav ul li {
+       display: block;
+    margin-left: 10px;
+       line-height: 10px;
+       padding: 5px;
+    }
+
+    
+
+nav ul li button {
+    
+    font-size: 17px;
+    padding: 2px 8px; 
+    border-radius: 4px;
+}
+
+button:active,button:hover{
+    background: none;
+    color: #0082e6;
+}
+
+#check:checked ~ ul{
+    
+    left: 0;
+}
+
+.cartnav{
+    line-height: 40px;
+  }
+  .loginnav{
+    line-height: 40px;
+  }
+  .log{
+    margin-left: -35px;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .register{
+
+        margin-left: -10px;
+    }
+
+    .register1{
+
+        margin-left: -20px;
+    }
+    
+    
+}

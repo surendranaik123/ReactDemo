@@ -1,0 +1,126 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F8F9FA ;
+    width: auto;
+    height: auto;
+    
+    
+}
+
+.first_col {
+    background-color: white;
+    height: 450px;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+    border-radius: 20px;
+    
+}
+.contactcont{
+    height: auto;
+    width: auto;
+    position: relative !important;
+    align-items: center;
+    position: absolute;
+    
+}
+.img-fluid2 {
+    border-radius: 20px;
+    height: 250px;
+    width: 650px;
+    /* margin-left: 10px; */
+    margin-right:40px;
+    top: 1px;
+}
+.row-last {
+    width: 70% !important;
+    position: relative ;
+    left: 450px;
+    bottom: 220px;
+    height: 200px;
+    padding-bottom: 100px !important;
+    background-color: #C1B688;
+    border-radius: 20px;
+    margin-right:0px;
+    
+}
+.contactbutton {
+    height: 40px;
+    background-color: #C1B688;
+    border: #C1B688;
+    border-radius: 10px;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+}
+.contactbutton:hover {
+    background-color:rgba(0, 111, 155, 0.664) !important;
+}
+.form-control {
+    height: 40px;
+    background: #fff;
+    font-size: 14px;
+    border-radius: 10px;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #C1B688;
+}
+.form-control[type=text]:focus {
+border: 2px solid #555;
+}
+
+@media only screen and (max-width: 1140px) {
+    .form-control {
+        height: 40px;
+        width: 100%;
+        background: #fff;
+        font-size: 14px;
+        border-radius: 10px;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        border: 1px solid #C1B688;
+    }
+    
+    .sec_col {
+        order: 1 !important;
+    }
+    .row-last {
+        left: 0 !important;
+        width: 100% !important;
+        height: 300px !important;
+        top: 0 !important;
+    }
+    .img-fluid2{
+        left: 0 !important;
+        width: 100%!important;
+        height: 400px !important;
+        bottom: 400px!important;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .first_col {
+        margin-top:100px;
+  right:80px;
+        width: 100%!important;
+        height: 400px !important;
+        top: 0 !important;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: none;
+}
+.contactcont{
+
+    height: 400px;
+    width: 86% !important;
+    position: relative !important;
+    align-items: center;
+    position: absolute;
+    left: 0px;
+    right: 150px;
+    
+    }
+    .userdata{
+        margin-top: 150px;
+        margin-left: 430px;
+    }
+}

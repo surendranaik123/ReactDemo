@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.search-icon {
+order: 2; 
+cursor: pointer;
+}
+
+.file-upload {
+width: 50rem;
+background-color: darkgrey;
+}
+@media only screen and (max-width:900px) {
+  .subcategory{
+    min-Width: 18rem;
+     max-Width: 28rem;
+      min-Height: 10rem;
+      max-Height: 16rem;
+  }
+  .navigation{
+   
+  display: inline-flex;
+  font-size: medium;
+  margin-left: -20px;
+
+  }
+  .arrived {
+    margin-left: auto;
+    margin-right:100%;
+    text-align: center;
+  }
+  .foot{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   font-size: small;
+   min-Width: 18rem;
+   max-Width: 28rem;
+    min-Height: 10rem;
+    max-Height: 16rem;
+  
+  }
+  
+  .contactimg{
+    margin-bottom: 8rem;
+    justify-items: right;
+   
+    
+  }
+  
+}
+  
+
+ 
+  @media only screen and (max-width: 900px) {
+    form {
+      width: 100% !important;
+    }
+    .categorycard{
+      margin-left: 3px;
+
+    }
+    .forgotforms{
+      width: 90%;
+    }
+    .otpbtn{
+      margin-top: 2rem;
+    }
+   .otpalert{
+    margin-left: 10%;
+    width: 80%;
+   }
+   .topcategory{
+    margin-right: 5px;
+
+  }
+  .videoslide{
+    width: 100%;
+    height:100%;
+    margin-top: 40px;
+    position: relative;
+  }
+    
+   
+  }
